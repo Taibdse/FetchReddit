@@ -1,0 +1,15 @@
+:root{
+    --bg-main-color: #c4d4ed;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-main-color);
+}
+#results .card{
+    transition: all 0.3s;
+}
+#results .card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    transform: scale(1.05);
+}
